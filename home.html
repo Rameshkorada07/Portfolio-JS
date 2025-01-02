@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="nav">
+                <div class="left">
+                    <p>vinaykorada2004@gmail.com</p>
+                    <button>Copy</button>
+                    <button>CV</button>
+                </div>
+
+                <div class="right-sub">
+
+                    <div id="nav-links" class="right">
+                    
+                        <div>
+                            <img onclick="hidemenu()" class="cancel-btn" src="images/cancel.png" alt="">
+                        </div>
+                            
+    
+                            <a href="https://www.linkedin.com/in/ramesh-korada-8566622b5/">Linkedin</a>
+                            <a href="https://github.com/Rameshkorada07">Github</a>
+                            <a href="">Instagram</a>  
+                    </div>
+    
+                    <div>
+                        <img onclick="showmenu()" class="menu-btn" src="images/menu.png" alt="">
+                    </div>
+
+                </div>
+               
+            </div>
+            
+            <div class="middle">
+                <div class="mid-first">
+                    <img class="profile-pic" src="images/profile3.jpg" alt="">
+                    <p>Ramesh👋</p>
+                </div>
+                <div class="mid-second">
+                    <h3>UI/UX Designer | Frontend Developer</h3>
+                    <p>Less is more.</p>
+                </div>
+                <div class="mid-last">
+                    <button>Let's Talk <img src="images/right-arrow.png" alt=""></button>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="lists">
+            <ul>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <div class="services">
+            <p class="services-txt">Services</p>
+        <hr>
+        </div>
+        
+        <div class="foot-content">
+            <div class="foot-left">
+                <h3>UI.UX</h3>
+                <p>Lorem Ipsum is simply dummy text
+                    of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's 
+                    standard dummy text</p>
+            </div>
+            <div class="foot-right">
+                <h3>Reactjs</h3>
+                <p>Lorem Ipsum is simply dummy text
+                    of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's 
+                    standard dummy text</p>
+            </div>
+        </div>
+    </div>
+
+<script>
+    var navlinks = document.getElementById("nav-links");
+
+    function hidemenu() {
+        navlinks.style.right = "-170px";
+    }
+
+    function showmenu() {
+        navlinks.style.right = "0px";
+    }
+
+</script>
+
+</body>
+</html>
